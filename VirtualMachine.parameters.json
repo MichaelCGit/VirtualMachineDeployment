@@ -1,4 +1,5 @@
 {
+    {
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
@@ -9,7 +10,7 @@
             "value": "Chambers12345"
         },
         "dnsLabelPrefix": {
-            "value": "[toLower(format('{0}-{1}', parameters('vmName'), uniqueString(resourceGroup().id, parameters('vmName'))))]" 
+            "value": "MyVM" 
         },
         "publicIpName": {
             "value": "myPublicIP"
