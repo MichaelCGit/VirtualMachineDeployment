@@ -9,7 +9,7 @@
             "value": "Chambers12345"
         },
         "dnsLabelPrefix": {
-            "value": "" // TODO: Fill in parameter value
+            "value": "[toLower(format('{0}-{1}', parameters('vmName'), uniqueString(resourceGroup().id, parameters('vmName'))))]" 
         },
         "publicIpName": {
             "value": "myPublicIP"
@@ -27,7 +27,7 @@
             "value": "Standard_D2s_v3"
         },
         "location": {
-            "value": "" // TODO: Fill in parameter value
+            "value": "UKSouth"
         },
         "vmName": {
             "value": "simple-vm"
