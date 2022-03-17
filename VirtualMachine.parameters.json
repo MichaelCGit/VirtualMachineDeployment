@@ -6,7 +6,10 @@
       "value": "MichaelC"
     },
     "adminPassword": {
-      "value": "Chambers12345"
+      "value": "Chambers123*"
+    },
+    "dnsLabelPrefix": {
+      "value": "[toLower(format('{0}-{1}', parameters('vmName'), uniqueString(resourceGroup().id, parameters('vmName'))))]"
     },
     "publicIpName": {
       "value": "myPublicIP"
@@ -24,7 +27,7 @@
       "value": "Standard_D2s_v3"
     },
     "location": {
-      "value": "UKSouth"
+      "value": "[resourceGroup().location]"
     },
     "vmName": {
       "value": "simple-vm"
