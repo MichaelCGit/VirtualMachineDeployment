@@ -9,7 +9,7 @@
       "value": "Chambers123*"
     },
     "dnsLabelPrefix": {
-      "value": "[hello-world]"
+      "value": "hello-world"
     },
     "publicIpName": {
       "value": "myPublicIP"
