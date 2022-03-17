@@ -26,7 +26,7 @@
     },
     "dnsLabelPrefix": {
       "type": "string",
-      "defaultValue": "[toLower(format('{0}-{1}', parameters('vmName'), uniqueString(resourceGroup().id, parameters('vmName'))))]",
+      "defaultValue": "MyVM",
       "metadata": {
         "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
       }
