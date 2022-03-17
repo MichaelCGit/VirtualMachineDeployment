@@ -22,13 +22,7 @@
       "minLength": 12,
       "metadata": {
         "description": "Password for the Virtual Machine."
-      }
-    },
-    "dnsLabelPrefix": {
-      "type": "string",
-      "defaultValue": "MyVM",
-      "metadata": {
-        "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
+      
       }
     },
     "publicIpName": {
@@ -131,7 +125,6 @@
       "properties": {
         "publicIPAllocationMethod": "[parameters('publicIPAllocationMethod')]",
         "dnsSettings": {
-          "domainNameLabel": "[parameters('dnsLabelPrefix')]"
         }
       }
     },
