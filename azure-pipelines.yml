@@ -22,7 +22,7 @@ steps:
     csmFileLink: 'https://raw.githubusercontent.com/MichaelCGit/VirtualMachineDeployment/main/VirtualMachine.json'
     csmParametersFileLink: 'https://raw.githubusercontent.com/MichaelCGit/VirtualMachineDeployment/main/VirtualMachine.parameters.json'
     deploymentMode: 'Complete'
-    deploymentName: 'Virtual Machine Deployment'
+    deploymentName: 'virtualmachinedeployment'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
