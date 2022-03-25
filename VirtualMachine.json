@@ -89,7 +89,7 @@
     },
     "location": {
       "type": "string",
-      "defaultValue": "UKSouth",
+      "defaultValue": "SwitzerlandNorth",
       "metadata": {
         "description": "Location for all resources."
       }
